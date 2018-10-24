@@ -1,0 +1,361 @@
+@media screen and (min-width: 1530px){
+    .download-box{
+        max-width: none;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+@media(min-width: 1200px) {
+    /*======================Our courses===================*/
+    .list_of_teachers_menu ul li:nth-child(5n + 0) {
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 1320px){
+	.english_teaching-title:before, .english_teaching-title:after{
+		content: none;
+	}
+}
+@media screen and (max-width: 1199px){
+	.header_menu_ul li:nth-child(2):before{
+		left: -10px;
+	} 
+	.header_menu_ul li:nth-child(2):after{
+		right: -10px;
+	}
+	.header_menu_ul li a{
+		text-align: center;
+	}
+	.navbar-collapse {
+	    padding-right: 15px;
+	    padding-left: 15px;
+	}
+    .download-box{
+        max-width: none;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        padding-bottom: 40px;
+    }
+    .progress_user_name {
+        padding-top: 10px;
+    }
+    .progress_user_age {
+        padding: 25px 0;
+    }
+    .progress_user_infornation {
+        font-size: 15px;
+    }
+    /*======================Our courses===================*/
+    .our_courses_contnet_active {
+        margin-top: 30px;
+    }
+    .list_of_teachers_menu ul {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .photo_galler_block_2{
+        max-width: 300px;
+    }
+    .menu_img span{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 991px){
+	.navbar-collapse {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+	.header_menu_ul li:nth-child(2):before{
+		left: -25px;
+	} 
+	.header_menu_ul li:nth-child(2):after{
+		right: -25px;
+	}
+	.header_contnet{
+		margin-top: 20px;
+	}
+	/*  modals-media  */
+	.modal-colum {
+        max-width: 600px;
+    }
+    .modal-call-back, .modal-trial-lesson {
+        background-image: none;
+    }
+    .call-back-forum-container, .trial-lesson-forum-container {
+        margin-right: auto;
+        text-align: center;
+    }
+    .usee-information-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .call-back-forum, .trial-lesson-forum {
+       padding: 0;
+    }
+    .call-back-forum img, .trial-lesson-forum img {
+        left: 105px;
+    }
+    /*  modals-media_end  */
+    .progress_user_name {
+        font-size: 25px;
+    }
+    .progress_user_age {
+        font-size: 17px;
+    }
+    .photo_galler_block_2{
+        max-width: 230px;
+    }
+    .download-box_d-none{
+        text-align: center;
+    }
+    .download-box_d-none .call-back-forum label{
+        max-width: 323px;
+        margin: auto;
+        margin-bottom: 26px;
+    }
+    .download-box_d-none .call-back-forum img{
+        left: 40px;
+    }
+    .chail-img{
+        display: none;
+    }
+    header{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 767px){
+	nav{
+		padding: 15px 0;
+	}
+	.header_contnet,.header_timezone_div,.header_menu,.header_menu_ul,.header_timezone_first_div{
+		display: block;
+		margin-top: 20px;
+        text-align: center;
+	}
+	.header_menu_ul li:nth-child(2):before, .header_menu_ul li:nth-child(2):after{
+		content: none;
+	}
+	.header_menu_ul li{
+		margin: 20px 0;
+	}
+	.header_menu_ul li a{
+		padding-bottom: 0;
+	}
+	.header_timezone_first_div p{
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+    .tel_number-mob{
+        display: block;
+    }
+    .header_contnet .header_contnet_tel_number{
+        display: none;
+    }
+	/*  modals-media  */
+	.modal-colum {
+        max-width: 450px;
+    }
+    .usee-information-container{
+        text-align: center;
+        padding: 0 20px;
+    }
+    .call-back-tittle, .trial-lesson-tittle {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .call-back-forum-container, .trial-lesson-forum-container{
+        text-align: center;
+    }
+    .call-back-forum img, .trial-lesson-forum img {
+        left: 85px;
+    }
+    .call-back-btn button, .trial-lesson-btn button {
+        margin-bottom: 30px;
+    }
+    .user-image {
+        margin: 50px 0 0;
+    }
+    .user-name {
+        font-size: 30px;
+        color: rgb(254, 104, 104);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .about-user {
+        margin-bottom: 35px;
+    }
+	/*  modals-media_end  */
+    .learn_english_section {
+        padding: 30px 0;
+    }
+    .learn_english_section .learn_english_title_div_contnet h2{
+        font-size: 25px;
+    }
+    .learn_english_section .learn_english_title_div_contnet p{
+        font-size: 16px;
+    }
+    .read_more{
+        margin: auto;
+        margin-top: 40px;
+    }
+    .finish{
+        margin: auto;
+    }
+    .finish-top{
+        flex-direction: column;
+    }
+    .finish_div{
+        margin: 20px auto;
+    }
+    .finish-bottom{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .footer_content,.finish_div_bottom{
+        text-align: center;
+    }
+    .footer_social{
+        justify-content: center;
+    }
+    .finish_div_bottom span, .finish_div_bottom a{
+        margin-left: 0;
+    }
+    .finish_div_bottom_button{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .learn_english_title_div_contnet div {
+        margin-left: 30px;
+    }
+
+/*================header======================*/
+    header {
+        background-image: none;
+        background-color: #FE6868;
+        min-height: auto; 
+    }
+    .effective_english_teaching_buttons_div,.effective_english_teaching_div h4 {
+        text-align: center;
+    }
+    .effective_english_teaching_ul_block {
+        text-align: center;
+        display: block;
+    }
+    .effective_english_teaching_ul_block ul {
+        display: inline-block;
+    }
+    .effective_english_teaching_div h2 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .read_more {
+        min-height: 60px;
+        margin-bottom: 30px;
+    }
+    .about_progress_users{
+        text-align: center;
+    }
+    .user_containers{
+        margin-bottom: 50px;
+    }
+    .photo_galler_block_2{
+        display: none;
+    }
+    .photo_galler_bl_1_p_2{
+        flex-direction: initial;
+    }
+    .pad_right{
+        margin-right: 0;
+    }
+    .pad_bott{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 576px){
+	.logo_div{
+	    max-width: 260px;
+	}
+	.logo_img {
+		width: 40%;
+    	padding-right: 10px;
+    	margin-right: 10px;
+	}
+	.logo_img-text{
+	    width: 60%;
+    	padding-right: 13px;
+	}
+    /*======================Our courses===================*/
+    .our_courses_contnet h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .our_courses_contnet h3 {
+        font-size: 18px;
+    }
+    .our_courses_contnet p,.sign_up_for_a_trial_lesson button {
+        font-size: 14px;
+    }
+    .our_courses_ul_menu li a {
+        font-size: 20px;
+    }
+    .list_of_teachers_menu ul {
+        display: block;
+    }
+    .list_of_teachers_menu ul li {
+        margin: 25px auto;
+    }
+    .teacher_description{
+        display: block;
+        text-align: center;
+    }
+    .teacher_description h4,.teacher_description h2{
+        margin-bottom: 0;
+    }
+    .teacher_description div{
+        margin-left: 0;
+    }
+    .section_title{
+        margin-bottom: 50px;
+    }
+    .section_title h2{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 480px) {
+	/*  modals-media  */
+    .modal-colum {
+        max-width: 300px;
+    }
+    .call-back-forum img, .trial-lesson-forum img {
+        left: 45px;
+    }
+    .call-back-forum, .trial-lesson-forum {
+        padding: 0 15px;
+    }
+    /*  modals-media_end  */
+    .download-text{
+        margin-top: 20px;
+    }
+    .download-text h3 {
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+    .download-text p {
+        font-size: 14px;
+    }
+    .download_icon {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        left: 0px;
+        margin: auto;
+    }
+    .download-circle{
+        margin: auto;
+    }
+}
